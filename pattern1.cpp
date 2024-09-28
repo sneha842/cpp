@@ -11,7 +11,7 @@ int main(){
         for(j=1;j<=col;j++){
             cout<<"* ";
         }
-        cout<<" ";
+        cout<<endl;
     }
     return 0;
 }
