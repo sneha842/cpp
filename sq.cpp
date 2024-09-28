@@ -7,7 +7,7 @@ int main(){
     square= n*n;
     cube= n*n*n;
 
-    cout<<"square of the number"<<square<<endl;
-    cout<<"cube of the number"<<cube<<endl;
+    cout<<"square of"<<n<<"is"<<square<<endl;
+    cout<<"cube of"<<n<<"is"<<cube<<endl;
     return 0;
 }
