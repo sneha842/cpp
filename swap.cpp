@@ -1,9 +1,13 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int a=5,b=10;
+    int a,b;
+    cout<<"enter values of a and b"<<endl;
+    cin>>a>>b;
+
     cout<<"before swapping"<<endl;
-    cout<<"a="<<a<<"b="<<b<<endl;
+    cout<<"a="<<a<<endl;
+    cout<<"b="<<b<<endl;
 
 
     a=a+b;
@@ -11,6 +15,7 @@ int main(){
     a=a-b;
 
     cout<<"after swapping"<<endl;
-    cout<<"a="<<a<<"b"<<b<<endl;
+    cout<<"a="<<a<<endl;
+    cout<<"b"<<b<<endl;
     return 0;
 }

@@ -2,13 +2,13 @@
 using namespace std;
 
 int main(){
-    int x;
+    int a;
     cout<<"enter a year"<<endl;
-    cin>>x;
+    cin>>a;
 
-    if(x %4==0){
+    if(a %4==0){
         cout<<"it's a leap year"<<endl;
-        cin>>x;
+        cin>>a;
     }
     else{
         cout<<"it's not a leap year"<<endl;
