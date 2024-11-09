@@ -3,10 +3,10 @@
 using namespace std;
 const int BOARD_SIZE = 3;
 char board[BOARD_SIZE][BOARD_SIZE] = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
-struct Player {
+struct Players {
     string name;
-    char symbol;                                                     // STARTING FROM 26/12/2023    END 28/12/2023 THIS GAME COMPLEATED AFTER 16H CONSISTENT WORK 
-};
+    char symbol;                                                     
+}
 Player players[2];
 void printBoard() {
     for (int i = 0; i < BOARD_SIZE; i++) {

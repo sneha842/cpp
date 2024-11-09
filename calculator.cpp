@@ -2,7 +2,9 @@
 using namespace std;
 int main(){
   char choice;
-  int a=10,b=67;
+  int a,b;
+  cout<<"enter two number"<<endl;
+  cin>>a>>b;
   cout<<"enter a choice"<<endl;
   cin>>choice;
 
