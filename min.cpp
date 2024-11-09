@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     int num1,num2,max,min;
-    cout<<"enter a number"<<endl;
+    cout<<"enter two numbers"<<endl;
     cin>>num1>>num2;
 
     if(num1>num2){
